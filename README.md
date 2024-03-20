@@ -1,2 +1,3 @@
-# form-text-saver
-Automatically save everything you type into text boxes and forms in your web browser
+# autosave-form-recovery
+
+Autosave every form, no action necessary. Recover the text if it gets lost.

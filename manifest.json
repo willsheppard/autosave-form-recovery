@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Autosave Form Recovery",
+    "version": "0.0.2",
+    "description": "Autosave every form, no action necessary. Recover the text if it gets lost.",
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
